@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Query\CaseDetailQueryByIdHandler.cs" />
+  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Azure.Identity" Version="1.12.0" />
+		<PackageReference Include="Ligl.Core.Sdk.Common" Version="1.0.5" />
+		<PackageReference Include="Ligl.Core.Sdk.Shared.Business" Version="1.0.28" />
+		<PackageReference Include="Ligl.Core.Sdk.Shared.Model" Version="1.0.20" />
+		<PackageReference Include="MediatR" Version="12.3.0" />
+		<PackageReference Include="System.Net.Security" Version="4.3.2" />
+		<PackageReference Include="System.Text.RegularExpressions" Version="4.3.1" />
+		
+		
+						
+	</ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ligl.LegalManagement.Model\Ligl.LegalManagement.Model.csproj" />
+    <ProjectReference Include="..\Ligl.LegalManagement.Repository\Ligl.LegalManagement.Repository.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Notification\" />
+  </ItemGroup>
+
+</Project>
