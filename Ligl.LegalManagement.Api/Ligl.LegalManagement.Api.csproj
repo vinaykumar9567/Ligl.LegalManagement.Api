@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+	
+  <!--<ItemGroup>
+    <PackageReference Include="Ligl.Core.Sdk.Common" Version="1.0.3" />
+    <PackageReference Include="Ligl.Core.Sdk.Shared.Model" Version="1.0.20" />
+    <PackageReference Include="Ligl.Core.Sdk.Shared.Repository" Version="1.1.64" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.3" />
+  </ItemGroup>-->
+
+	
+	
+	
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.6" />
+		<PackageReference Include="Microsoft.AspNetCore.OData" Version="8.2.5" />
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.6" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.20.1" />
+		<PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ligl.LegalManagement.Business\Ligl.LegalManagement.Business.csproj" />
+    <ProjectReference Include="..\Ligl.LegalManagement.Model\Ligl.LegalManagement.Model.csproj" />
+    <ProjectReference Include="..\Ligl.LegalManagement.Repository\Ligl.LegalManagement.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

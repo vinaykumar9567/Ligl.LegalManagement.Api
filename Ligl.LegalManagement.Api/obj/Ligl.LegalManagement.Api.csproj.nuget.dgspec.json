@@ -1,0 +1,386 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Api.csproj",
+        "projectName": "Ligl.LegalManagement.Api",
+        "projectPath": "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Api.csproj",
+        "packagesPath": "C:\\Users\\vboda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vboda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\CorePackages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\10.0.0.6\\Nuget Packages\\UpgradedPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Business\\Ligl.LegalManagement.Business.csproj": {
+                "projectPath": "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Business\\Ligl.LegalManagement.Business.csproj"
+              },
+              "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Model\\Ligl.LegalManagement.Model.csproj": {
+                "projectPath": "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Model\\Ligl.LegalManagement.Model.csproj"
+              },
+              "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Repository\\Ligl.LegalManagement.Repository.csproj": {
+                "projectPath": "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Repository\\Ligl.LegalManagement.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.AspNetCore.OData": {
+              "target": "Package",
+              "version": "[8.2.5, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.20.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Business\\Ligl.LegalManagement.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Business\\Ligl.LegalManagement.Business.csproj",
+        "projectName": "Ligl.LegalManagement.Business",
+        "projectPath": "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Business\\Ligl.LegalManagement.Business.csproj",
+        "packagesPath": "C:\\Users\\vboda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vboda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\CorePackages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\10.0.0.6\\Nuget Packages\\UpgradedPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Model\\Ligl.LegalManagement.Model.csproj": {
+                "projectPath": "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Model\\Ligl.LegalManagement.Model.csproj"
+              },
+              "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Repository\\Ligl.LegalManagement.Repository.csproj": {
+                "projectPath": "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Repository\\Ligl.LegalManagement.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.12.0, )"
+            },
+            "Ligl.Core.Sdk.Common": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "Ligl.Core.Sdk.Shared.Business": {
+              "target": "Package",
+              "version": "[1.0.28, )"
+            },
+            "Ligl.Core.Sdk.Shared.Model": {
+              "target": "Package",
+              "version": "[1.0.20, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.3.0, )"
+            },
+            "System.Net.Security": {
+              "target": "Package",
+              "version": "[4.3.2, )"
+            },
+            "System.Text.RegularExpressions": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Model\\Ligl.LegalManagement.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Model\\Ligl.LegalManagement.Model.csproj",
+        "projectName": "Ligl.LegalManagement.Model",
+        "projectPath": "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Model\\Ligl.LegalManagement.Model.csproj",
+        "packagesPath": "C:\\Users\\vboda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vboda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\CorePackages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\10.0.0.6\\Nuget Packages\\UpgradedPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
+            "Ligl.Core.Sdk.Shared.Model": {
+              "target": "Package",
+              "version": "[1.0.20, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.3.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Repository\\Ligl.LegalManagement.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Repository\\Ligl.LegalManagement.Repository.csproj",
+        "projectName": "Ligl.LegalManagement.Repository",
+        "projectPath": "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Repository\\Ligl.LegalManagement.Repository.csproj",
+        "packagesPath": "C:\\Users\\vboda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vboda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\CorePackages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\10.0.0.6\\Nuget Packages\\UpgradedPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Model\\Ligl.LegalManagement.Model.csproj": {
+                "projectPath": "C:\\Users\\vboda\\source\\repos\\Ligl.LegalManagement.Api\\Ligl.LegalManagement.Model\\Ligl.LegalManagement.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.12.0, )"
+            },
+            "Ligl.Core.Sdk.Shared.Repository": {
+              "target": "Package",
+              "version": "[1.1.64, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
